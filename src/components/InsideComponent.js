@@ -1,4 +1,4 @@
-
+// eslint-disable-next-line
 function InsideComponent() {
 
     function ChildComponent() {
@@ -9,8 +9,8 @@ function InsideComponent() {
 
     return (
         <>
-            <div>Inside Component Example <ChildComponent /></div>
-
+            <div>Inside Component Example </div>
+            <ChildComponent />
         </>
     );
 }
