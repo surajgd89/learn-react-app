@@ -8,6 +8,8 @@ import PropsFunctionCompnent from './components/PropsFunctionCompnent';
 import GetInputValue from './components/GetInputValue';
 import HideShowElement from './components/HideShowElement';
 import BasicForm from './components/BasicForm';
+import ConditionalRendering from './components/ConditionalRendering';
+import FormValidation from './components/FormValidation';
 import './App.css';
 
 
@@ -26,6 +28,8 @@ function App() {
       {/* <GetInputValue /> */}
       {/* <HideShowElement /> */}
       {/* <BasicForm /> */}
+      {/* <ConditionalRendering /> */}
+      <FormValidation />
     </>
   );
 }
