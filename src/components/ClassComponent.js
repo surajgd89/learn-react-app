@@ -2,7 +2,11 @@ import React from 'react';
 export default class ClassComponent extends React.Component {
     render() {
         return (
-            <div>Class Component Example</div>
+            <div className="text-center">
+                <h1>
+                    Class Component Example
+                </h1>
+            </div>
         )
     }
 }

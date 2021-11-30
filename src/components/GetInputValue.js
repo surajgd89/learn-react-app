@@ -12,7 +12,7 @@ function GetInputValue(props) {
     }
 
     return (
-        <div>
+        <div className="text-center">
             {print ? <h1>Get Input Box Value : {data}</h1> : <h1>Get Input Box Value </h1>}
             <input type="text" onChange={getVal} />
             <div>{data}</div>

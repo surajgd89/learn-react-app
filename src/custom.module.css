@@ -1,0 +1,14 @@
+.cssstyle2 {
+    color: green;
+    background-color: orange;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bold_800 {
+    font-weight: 800;
+}
+
+.grey_bg {
+    background-color: grey;
+}

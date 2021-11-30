@@ -35,7 +35,7 @@ function FormValidation() {
 
 
     return (
-        <div>
+        <div className="text-center">
             <h1>Form Validation</h1>
             <form onSubmit={loginHandler}>
                 <div>

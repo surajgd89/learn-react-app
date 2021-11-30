@@ -8,10 +8,10 @@ function InsideComponent() {
     }
 
     return (
-        <>
-            <div>Inside Component Example </div>
+        <div className="text-center">
+            <h1>Inside Component Example </h1>
             <ChildComponent />
-        </>
+        </div>
     );
 }
 export default InsideComponent;

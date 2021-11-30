@@ -16,7 +16,7 @@ class StateClassComponent extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="text-center">
                 <h1>State Class Component Example</h1>
                 <div>{this.state.data}</div>
                 <button onClick={() => this.updateData()}>Update</button>

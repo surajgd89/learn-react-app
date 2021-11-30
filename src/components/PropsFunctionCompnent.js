@@ -19,7 +19,7 @@ function PropsFunctionCompnent(props) {
     let [data, setName] = useState(props.name);
 
     return (
-        <div>
+        <div className="text-center">
             <h1>Props Function Component</h1>
             <div>Name : {data} </div>
             <button onClick={() => setName('Kajal')}>Click</button>

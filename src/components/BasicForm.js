@@ -24,7 +24,7 @@ function BasicForm() {
     }
 
     return (
-        <div>
+        <div className="text-center">
             <h1>Basic Form</h1>
             <form onSubmit={getFormData} onReset={resetFormData}>
                 <div>Name : <input type="text" value={name} onChange={(e) => setName(e.target.value)} /></div>

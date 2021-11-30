@@ -1,7 +1,9 @@
 
 function FunctionComponent() {
     return (
-        <div>Function Component Example</div>
+        <div className="text-center">
+            <h1>Function Component Example</h1>
+        </div>
     );
 }
 

@@ -34,9 +34,12 @@
 function ClickEvent() {
 
     return (
-        <>
+        <div className="text-center">
+            <h1>
+                Click Event
+            </h1>
             <button onClick={() => alert("Hello")}>Click me 2</button>
-        </>
+        </div>
     )
 
 }

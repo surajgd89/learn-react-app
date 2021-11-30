@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 
 //Example 1
 /* function ConditionalRendering() {
@@ -13,18 +13,19 @@ import { useState } from "react";
 
 //Example 2
 function ConditionalRendering() {
-    const [LoggedIn, SetLoggedIn] = useState(2);
+    const [LoggedIn, SetLoggedIn] = React.useState(1);
     return (
-        <>
+        <div className="text-center">
             <h1>Conditional Rendering | if/else condition</h1>
-            {LoggedIn == 1 ?
+            {LoggedIn === 1 ?
                 <div>Welcome Suraj </div>
-                : LoggedIn == 2 ?
+                : LoggedIn === 2 ?
                     <div> Welcome Kajal </div>
-                    : LoggedIn == 3 ?
+                    : LoggedIn === 3 ?
                         <div> Welcome Manu </div>
                         : <div>Welcome Guest</div>}
-        </>
+            {SetLoggedIn(null)}
+        </div>
     );
 }
 

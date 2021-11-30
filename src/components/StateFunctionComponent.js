@@ -28,7 +28,7 @@ function StateFunctionComponent() {
     }
 
     return (
-        <div>
+        <div className="text-center">
             <h1>State Function Component</h1>
             <div>{data}</div>
             <button onClick={updateData}>Update</button>
