@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 
 //import FunctionComponent from './components/FunctionComponent';
@@ -21,7 +22,14 @@ import './App.css';
 //import ComponentWillUnmount from './components/ComponentWillUnmount';
 //import Hooks from './components/Hooks';
 // import UseEffectComponent from './components/UseEffectComponent';
-import StyleType from './components/StyleType';
+// import StyleType from './components/StyleType';
+// import ReactBootstrapInstall from './components/ReactBootstrapInstall';
+// import ArrayListWithList from './components/ArrayListWithList';
+// import NestedList from './components/NestedList';
+// import ReuseComponent from './components/ReuseComponent';
+// import ReactFragment from './components/ReactFragment';
+// import LiftingStateUp from './components/LiftingStateUp';
+import PureComponent from './components/PureComponent';
 
 
 function App() {
@@ -55,8 +63,14 @@ function App() {
       {/* <ComponentWillUnmount /> */}
       {/* <Hooks /> */}
       {/* <UseEffectComponent name="Suraj" email="suraj.gd89@gmail.com" mobile="9594415153" /> */}
-      <StyleType />
-
+      {/* <StyleType /> */}
+      {/* <ReactBootstrapInstall /> */}
+      {/* <ArrayListWithList /> */}
+      {/* <NestedList /> */}
+      {/* <ReuseComponent /> */}
+      {/* <ReactFragment /> */}
+      {/* <LiftingStateUp /> */}
+      <PureComponent />
     </>
   );
 }
