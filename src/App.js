@@ -29,7 +29,12 @@ import './App.css';
 // import ReuseComponent from './components/ReuseComponent';
 // import ReactFragment from './components/ReactFragment';
 // import LiftingStateUp from './components/LiftingStateUp';
-import PureComponent from './components/PureComponent';
+// import PureComponent from './components/PureComponent';
+// import UseMemo from './components/UseMemo';
+// import RefClassComponent from './components/RefClassComponent';
+// import UseRefComponent from './components/UseRefComponent';
+// import ForwardRef from './components/ForwardRef';
+import ControlledComponent from './components/ControlledComponent';
 
 
 function App() {
@@ -37,6 +42,8 @@ function App() {
   /*   function getData() {
       alert("Function Call")
     } */
+
+
 
 
   return (
@@ -70,7 +77,12 @@ function App() {
       {/* <ReuseComponent /> */}
       {/* <ReactFragment /> */}
       {/* <LiftingStateUp /> */}
-      <PureComponent />
+      {/* <PureComponent /> */}
+      {/* <UseMemo /> */}
+      {/* <RefClassComponent /> */}
+      {/* <UseRefComponent /> */}
+      {/* <ForwardRef /> */}
+      <ControlledComponent />
     </>
   );
 }
