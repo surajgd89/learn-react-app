@@ -34,7 +34,12 @@ import './App.css';
 // import RefClassComponent from './components/RefClassComponent';
 // import UseRefComponent from './components/UseRefComponent';
 // import ForwardRef from './components/ForwardRef';
-import ControlledComponent from './components/ControlledComponent';
+// import ControlledComponent from './components/ControlledComponent';
+// import UnControlledComponent from './components/UnControlledComponent';
+// import HighOrderComponent from './components/HighOrderComponent';
+//import RouterExample from './components/RouterExample';
+// import RouterExampleAdv from './components/RouterExampleAdv';
+import DynamicRouting from './components/DynamicRouting';
 
 
 function App() {
@@ -42,8 +47,6 @@ function App() {
   /*   function getData() {
       alert("Function Call")
     } */
-
-
 
 
   return (
@@ -82,7 +85,13 @@ function App() {
       {/* <RefClassComponent /> */}
       {/* <UseRefComponent /> */}
       {/* <ForwardRef /> */}
-      <ControlledComponent />
+      {/* <ControlledComponent /> */}
+      {/* <UnControlledComponent /> */}
+      {/* <HighOrderComponent /> */}
+      {/* <RouterExample /> */}
+      {/* <RouterExampleAdv /> */}
+      <DynamicRouting />
+
     </>
   );
 }

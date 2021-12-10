@@ -1,0 +1,22 @@
+.counter {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.red-bg {
+    background-color: red;
+    color: #fff;
+}
+
+.green-bg {
+    background-color: green;
+    color: #fff;
+}
+
+.blue-bg {
+    background-color: blue;
+    color: #fff;
+}
